@@ -1,0 +1,163 @@
+nav{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 50px;
+    
+}
+
+nav a{
+    
+    background: linear-gradient(45deg, rgb(231, 230, 228), rgb(0, 3, 5));
+    width: 150px;
+    pointer-events: auto;
+    height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: rgb(243, 243, 245);
+}
+nav a:hover {
+    transform: scale(1.1) ;
+   
+}
+.body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+.texte{
+   position: relative;
+}
+    
+header{
+    height: 100px;
+    text-align: center;
+    color: rgb(247, 248, 244);
+    font-style: oblique;
+    background-color: rgba(8, 8, 8, 0.836); 
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-image: url(apnoir.jpg);
+  
+}
+header h1{
+    margin-top: 20px;
+    font-family: 'Shadows Into Light',cursive;
+}
+header h2{
+    color: rgb(228, 231, 238);
+    margin-top: -20px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.hero{
+    background-image: url(fondd.jpg) ;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+    gap: 20px;
+    
+}
+.item{
+    flex: 1 1 50%;
+    box-sizing: border-box;
+    text-align: center;
+    width: calc(50% - 1Opx);
+    margin-top: 20px;
+     border-radius: 15px;
+    overflow: hidden;
+    background-image: url(apbois.jpg);
+    margin-bottom: 20px;
+    font-family: cursive;
+    
+
+
+    
+}
+.item img{
+    max-width: 100%;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    object-fit: contain;
+    margin-top: 20px;
+     box-shadow: 0 0 10px rgb(61, 61, 61);
+
+   
+}
+
+.content{
+    
+    width: 100%;
+    height: 250px;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    font-size: small;
+    background-color: rgb(6, 6, 7);
+   
+    gap: 250px;
+    
+    background-image: url(apnoirc.jpg);
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ } 
+ .background{
+    filter: blur(8px);
+ }   
+    
+
+
+.content-center{
+    text-align: center;
+    color: rgba(253, 255, 254, 0.986);
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    
+}
+
+
+button{
+    
+    border-radius: 50px;
+    background: linear-gradient(45deg, rgba(245, 242, 241, 0.61), rgb(17, 17, 17));
+    width: 150px;
+    pointer-events: auto;
+    height: 50px;
+    border: none;
+    transition: .5s ease-in-out;
+}
+button:hover{
+    transform: translateX(10px);
+}
+button:active{
+    background: red;
+}
+a{
+    color: rgb(247, 244, 244);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+

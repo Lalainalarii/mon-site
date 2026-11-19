@@ -1,0 +1,101 @@
+
+nav{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 50px;
+    
+}
+
+nav a{
+    
+    background: linear-gradient(45deg, rgb(231, 230, 228), rgb(0, 3, 5));
+    width: 150px;
+    pointer-events: auto;
+    height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: rgb(243, 243, 245);
+}
+nav a:hover {
+    transform: scale(1.1) ;
+   
+}
+.contact{
+    background-image: url(apblanc.jpg);
+    backdrop-filter: blur(10px);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 50PX;
+    margin-top: 70px;
+    padding-top: 30px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 10px;
+
+}
+.contact h1{
+    text-align: center;
+    font-family: cursive;
+    letter-spacing: 10px;
+}
+.contact p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.contact .input{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+.contact .input input{
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    background: rgba(112, 108, 108, 0.2);
+    border: solid 2px black;
+    border-radius: 10px;
+}
+.contact .input input:hover{
+    background: rgb(255, 250, 228);
+}
+.contact .input input::placeholder{
+    color: black;
+    font-size: 15PX;
+    letter-spacing: 5px;
+}
+.contact .btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.contact .btn button{
+    width: 400px;
+    background: rgb(34, 33, 34);
+   border-radius: 10px;
+    pointer-events: auto;
+    height: 50px;
+    border: none;
+    transition: .5s ease-in-out;
+    color: white;
+    font-weight: bold;
+}
+.contact .btn button:hover{
+    transform: translateY(10px);
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin:auto;
+   
+}
